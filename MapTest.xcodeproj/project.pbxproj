@@ -21,6 +21,7 @@
 		941C8FDC15125C0E000D7A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941C8FBA15125C0E000D7A90 /* Foundation.framework */; };
 		941C8FE415125C0E000D7A90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 941C8FE215125C0E000D7A90 /* InfoPlist.strings */; };
 		941C8FE715125C0E000D7A90 /* MapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C8FE615125C0E000D7A90 /* MapTestTests.m */; };
+		941C8FF115125CB7000D7A90 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941C8FF015125CB7000D7A90 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,23 @@
 		941C8FB815125C0E000D7A90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		941C8FBA15125C0E000D7A90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		941C8FBC15125C0E000D7A90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		941C8FC015125C0E000D7A90 /* MapTest-Info.plist */ = {isa = PBXFileReference; path = "MapTest-Info.plist"; sourceTree = "<group>"; };
+		941C8FC015125C0E000D7A90 /* MapTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTest-Info.plist"; sourceTree = "<group>"; };
 		941C8FC215125C0E000D7A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		941C8FC415125C0E000D7A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		941C8FC615125C0E000D7A90 /* MapTest-Prefix.pch */ = {isa = PBXFileReference; path = "MapTest-Prefix.pch"; sourceTree = "<group>"; };
-		941C8FC715125C0E000D7A90 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		941C8FC615125C0E000D7A90 /* MapTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapTest-Prefix.pch"; sourceTree = "<group>"; };
+		941C8FC715125C0E000D7A90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		941C8FC815125C0E000D7A90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		941C8FCB15125C0E000D7A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		941C8FCE15125C0E000D7A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		941C8FD015125C0E000D7A90 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		941C8FD015125C0E000D7A90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		941C8FD115125C0E000D7A90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		941C8FD815125C0E000D7A90 /* MapTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941C8FD915125C0E000D7A90 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		941C8FE115125C0E000D7A90 /* MapTestTests-Info.plist */ = {isa = PBXFileReference; path = "MapTestTests-Info.plist"; sourceTree = "<group>"; };
+		941C8FE115125C0E000D7A90 /* MapTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTestTests-Info.plist"; sourceTree = "<group>"; };
 		941C8FE315125C0E000D7A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		941C8FE515125C0E000D7A90 /* MapTestTests.h */ = {isa = PBXFileReference; path = MapTestTests.h; sourceTree = "<group>"; };
+		941C8FE515125C0E000D7A90 /* MapTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTestTests.h; sourceTree = "<group>"; };
 		941C8FE615125C0E000D7A90 /* MapTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTestTests.m; sourceTree = "<group>"; };
+		941C8FF015125CB7000D7A90 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941C8FF115125CB7000D7A90 /* MapKit.framework in Frameworks */,
 				941C8FB915125C0E000D7A90 /* UIKit.framework in Frameworks */,
 				941C8FBB15125C0E000D7A90 /* Foundation.framework in Frameworks */,
 				941C8FBD15125C0E000D7A90 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +86,7 @@
 		941C8FA915125C0E000D7A90 = {
 			isa = PBXGroup;
 			children = (
+				941C8FF015125CB7000D7A90 /* MapKit.framework */,
 				941C8FBE15125C0E000D7A90 /* MapTest */,
 				941C8FDF15125C0E000D7A90 /* MapTestTests */,
 				941C8FB715125C0E000D7A90 /* Frameworks */,
